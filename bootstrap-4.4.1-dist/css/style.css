@@ -8,7 +8,25 @@ body {
    width: 100%;
    margin-left: 5%;
    margin-right: 10%;
+   
 } 
+.container{
+ padding: 2%;
+}
+.card{
+  border: none;
+
+}
+#card1 .card{
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+.card-footer{
+  background-color: white;
+  padding-right: 5%;
+  border: none;
+}
+html, body { height: 100%; }
 #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e6e6e6+0,9b3e4c+0,b75c57+41,c37975+41,bf706e+41,b8605f+41,b55857+41,ad4848+41,b75c57+41,cc705e+77,cc705e+77,e18264+86,e58766+100,e8977a+100,e6e6e6+100 */
 background: #e6e6e6; /* Old browsers */
@@ -20,11 +38,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', end
 
 }
 
-h1,h3,h2,h6,p{
+h1,h3,h2,h4,h6,p{
     text-align:center;
     color:#f3f1f1;
     font-family: "f" ; 
     font-weight: bold;
+}
+h4{
+  text-align:right;
 }
 #imge1{
   width: 100px;
@@ -55,18 +76,13 @@ h1,h3,h2,h6,p{
    color:#f3f1f1;;
    
 }
-.form-control{
-    width: 30%;
-    border-radius: 10px;
-     background-color: #b4b5b4;
-  
 
-}
 #form1{
   font-family: "f1";
     font-weight: bold;
     font-size: 1.5em;
     color: #982b37;
+ background-color: linear-gradient(-45deg,#982b37 30%, #4a2b41 70% );
 }
 #btn2{
     border-radius: 30px;
@@ -111,6 +127,14 @@ section a:hover {
     color: 	#bc5859;
   }
  
+  #formGroupExampleInput2, #formGroupExampleInput1{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+     background-color: #b4b5b4;  
+     padding-top: 10px;
+     border: none;
+    }
 .colors{
     color: 	#bc5859;
     color: #f3f1f1;
