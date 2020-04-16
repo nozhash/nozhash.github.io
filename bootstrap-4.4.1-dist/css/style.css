@@ -1,4 +1,11 @@
-#page1, #page2, #page3, #page4, #page5, #page6, #page7{
+
+body { 
+   position: relative; 
+   width: 100%;
+   margin-left: 5%;
+   margin-right: 10%;
+} 
+#page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e6e6e6+0,9b3e4c+0,b75c57+41,c37975+41,bf706e+41,b8605f+41,b55857+41,ad4848+41,b75c57+41,cc705e+77,cc705e+77,e18264+86,e58766+100,e8977a+100,e6e6e6+100 */
 background: #e6e6e6; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #e6e6e6 0%, #9b3e4c 0%, #b75c57 41%, #c37975 41%, #bf706e 41%, #b8605f 41%, #b55857 41%, #ad4848 41%, #b75c57 41%, #cc705e 77%, #cc705e 77%, #e18264 86%, #e58766 100%, #e8977a 100%, #e6e6e6 100%); /* FF3.6-15 */
@@ -66,6 +73,7 @@ section a{
     font-size: 1.5rem;
     color:#7c7c7c;
     text-decoration: none;
+
 }
 section a:hover {
     color: 	#bc5859;
@@ -84,9 +92,9 @@ section a:hover {
     color: #b4b5b4;
 }
 
-/* body { */
-  /* position: relative; */
-/* } */
+/* 
+
+
 /* .card-body .col { */
   /* border: 2px black solid; */
 /* } */
