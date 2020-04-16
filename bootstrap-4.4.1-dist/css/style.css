@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: "f1";
+  src: url("../font/f1.woff");
+}
 body { 
    position: relative; 
    width: 100%;
@@ -18,9 +22,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', end
 
 h1,h3,h2,h6,p{
     text-align:center;
-    color:#f3f1f1;;
+    color:#f3f1f1;
+    font-family: "f" ; 
+    font-weight: bold;
 }
+#imge1{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+    border-radius: 60px;
+    background-color: #dbbfbf;
+    border:5px solid #e49472 ;
+}
+#btn4{
+  border-radius: 30px;
+  background: -webkit-linear-gradient(-45deg,  #e6e6e6 0%,#9b3e4c 0%,#b75c57 41%,#c37975 41%,#bf706e 41%,#b8605f 41%,#b55857 41%,#ad4848 41%,#b75c57 41%,#cc705e 77%,#cc705e 77%,#e18264 86%,#e58766 100%,#e8977a 100%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
+  border-top:5px solid #7c7c7c ;
 
+
+ width:50%;
+
+ font-size: 1rem;
+ color:#f3f1f1;;
+}
 #btn1{
     border-radius: 30px;
     background: -webkit-linear-gradient(-45deg,#982b37 30%, #4a2b41 70% ); /* Chrome10-25,Safari5.1-6 */
@@ -32,9 +56,17 @@ h1,h3,h2,h6,p{
    
 }
 .form-control{
-    width: 20%;
-    border-radius: 30px;
-    align-content: center;
+    width: 30%;
+    border-radius: 10px;
+     background-color: #b4b5b4;
+  
+
+}
+#form1{
+  font-family: "f1";
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #982b37;
 }
 #btn2{
     border-radius: 30px;
