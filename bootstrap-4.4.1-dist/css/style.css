@@ -116,6 +116,24 @@ h4{
     background-color: #dbbfbf;
     border:5px solid #e49472 ;
 }
+#row1{
+  background-color:#c3cac3;
+  border-radius: 20px;
+  width: 80%;
+margin-left: 10%;
+}
+#row1 p{
+  font-family: "f" ; 
+  font-weight: bold;
+  font-size: 1.5em;
+    background-color: #b9707e;
+    border-radius: 20px;
+    padding: 5%;
+  
+}
+#row1 .btn{
+  margin-bottom: 10%;
+}
 section a{
     padding: 10px;
     font-size: 1.5rem;
@@ -145,7 +163,7 @@ section a:hover {
     color:#d7b5a9;
     color:#7c7c7c;
     color:#efd6c9;
-    color: #b4b5b4;
+    color: #c3cac3;
 }
 
 /* 
@@ -176,15 +194,15 @@ Cachons la case à cocher
 	/* position: relative; /* permet de positionner la checkbox cachée */ */
 /* } */
 
-/* [type="checkbox"]:not(:checked),  */
-/* [type="checkbox"]:checked { */
-	/* /* Cache la checkbox sans */
-	   /* la désactiver pour les */
-	   /* lecteurs d'écran */ */
-	/* position: absolute; */
-	/* left: 0; */
-	/* opacity: 0.01; */
-/* } */
+[type="checkbox"]:not(:checked),  
+ [type="checkbox"]:checked { 
+	/* Cache la checkbox sans 
+	    la désactiver pour les 
+	   /* lecteurs d'écran */
+	 position: absolute; 
+	 left: 0; 
+	opacity: 0.01; 
+} 
 
 /* on prépare le label */
 [type="checkbox"]:not(:checked) + label,
