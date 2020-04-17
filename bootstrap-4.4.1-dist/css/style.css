@@ -4,12 +4,12 @@
   src: url("../font/f1.woff");
 }
 body { 
-   position: relative; 
    width: 100%;
-   margin-left: 5%;
-   margin-right: 10%;
+  
    
 } 
+html, body { height: 100%; }
+
 .container{
  padding: 2%;
 }
@@ -27,7 +27,17 @@ body {
   padding-right: 5%;
   border: none;
 }
-html, body { height: 100%; }
+ a{
+  padding: 10px;
+  font-size: 1.5rem;
+  color:#7c7c7c;
+  text-decoration-line: none; 
+
+
+}
+section a:hover {
+  color: 	#bc5859;
+}
 #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e6e6e6+0,9b3e4c+0,b75c57+41,c37975+41,bf706e+41,b8605f+41,b55857+41,ad4848+41,b75c57+41,cc705e+77,cc705e+77,e18264+86,e58766+100,e8977a+100,e6e6e6+100 */
 background: #e6e6e6; /* Old browsers */
@@ -39,14 +49,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', end
 
 }
 
-h1,h3,h2,h4,h6,p{
-    text-align:center;
+h1,h3,h2,h4,h6,p,h5{
     color:#f3f1f1;
     font-family: "f" ; 
     font-weight: bold;
 }
 h4{
   text-align:right;
+}
+#page2 h5{
+ color: #69212c;
+}
+#page3 h1{
+  color: #69212c;
+ }
+#card4 h3 {
+  color: #69212c;
+}
+#card5 h4{
+  color: #69212c;
+    font-family: "f1";
+      font-weight: bold;
+      font-size: 2em;
+      color: #f3f1f1;
+      border-radius: 10px;
+      width: 100%;
+       text-align:left;
+
+      background: -webkit-linear-gradient(-45deg,  #e6e6e6 0%,#9b3e4c 0%,#b75c57 41%,#c37975 41%,#bf706e 41%,#b8605f 41%,#b55857 41%,#ad4848 41%,#b75c57 41%,#cc705e 77%,#cc705e 77%,#e18264 86%,#e58766 100%,#e8977a 100%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
+  
+
+}
+#card5  h3{
+  color: #69212c;
+}
+#card6 h1{
+  color: #69212c;
+}
+#card8 h5{
+  color: #4a2b41;
 }
 #imge1{
   width: 100px;
@@ -69,13 +110,13 @@ h4{
 }
 #btn1{
     border-radius: 30px;
-    background: -webkit-linear-gradient(-45deg,#982b37 30%, #4a2b41 70% ); /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-linear-gradient(-45deg,#9b3e4c 30%, #4a2b41 70% ); /* Chrome10-25,Safari5.1-6 */
     -webkit-box-shadow: -1px -27px 32px -15px rgba(243,241,241,1);
     -moz-box-shadow: -1px -27px 32px -15px rgba(243,241,241,1);
     box-shadow: -1px -27px 32px -15px rgba(243,241,241,1);
    border: 0 px 0px  2px solid rgba(243,241,241,1);;
      width: 20%;
-   font-size: 2rem;
+   font-size: 2.5rem;
    color:#f3f1f1;;
    
 }
@@ -84,7 +125,7 @@ h4{
   font-family: "f1";
     font-weight: bold;
     font-size: 1.5em;
-    color: #982b37;
+    color: #f3f1f1;
     width: 30%;
     border-radius: 10px;
 
@@ -141,16 +182,7 @@ margin-left: 10%;
 #row1 .btn{
   margin-bottom: 10%;
 }
-section a{
-    padding: 10px;
-    font-size: 1.5rem;
-    color:#7c7c7c;
-    text-decoration: none;
-
-}
-section a:hover {
-    color: 	#bc5859;
-  }
+ 
  
   #formGroupExampleInput2, #formGroupExampleInput1{
     width: 30%;
