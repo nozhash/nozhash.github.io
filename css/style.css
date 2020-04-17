@@ -75,6 +75,7 @@ h4{
       border-radius: 10px;
       width: 100%;
        text-align:left;
+       padding-left: 2%;
 
       background: -webkit-linear-gradient(-45deg,  #e6e6e6 0%,#9b3e4c 0%,#b75c57 41%,#c37975 41%,#bf706e 41%,#b8605f 41%,#b55857 41%,#ad4848 41%,#b75c57 41%,#cc705e 77%,#cc705e 77%,#e18264 86%,#e58766 100%,#e8977a 100%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
   
