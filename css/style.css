@@ -206,17 +206,6 @@ margin-left: 10%;
     color: #c3cac3;
 }
 
-/* 
-
-
-/* .card-body .col { */
-  /* border: 2px black solid; */
-/* } */
-
-/* .col-6, */
-/* h5 { */
-  /* text-align: center; */
-/* } */
  #img2 { 
    height: 50px; 
   width: 50px; 
@@ -225,24 +214,20 @@ margin-left: 10%;
   
  } 
 
-/* .principal { */
-  /* height: 50px; */
-/* } */
 
-Cachons la case à cocher
-/* form p { */
-	/* position: relative; /* permet de positionner la checkbox cachée */ */
-/* } */
 
-[type="checkbox"]:not(:checked),  
- [type="checkbox"]:checked { 
-	/* Cache la checkbox sans 
-	    la désactiver pour les 
-	   /* lecteurs d'écran */
-	 position: absolute; 
-	 left: 0; 
-	opacity: 0.01; 
-} 
+
+ /* Cachons la case à cocher */
+[type="checkbox"]:not(:checked), 
+[type="checkbox"]:checked {
+	position: absolute;
+	left: 0;
+	opacity: 0.01;
+}
+
+
+
+
 
 /* on prépare le label */
 [type="checkbox"]:not(:checked) + label,
@@ -251,7 +236,7 @@ Cachons la case à cocher
 	padding-left: 2.3em; /* fait un peu d'espace pour notre case à venir */
 	font-size: 1.05em; /* Label un peu plus gros */
 	line-height: 1.7;
-	cursor: pointer;    /* affiche un curseur adapté */
+  cursor: pointer;    /* affiche un curseur adapté */
 }
 
 [type="checkbox"]:not(:checked) + label:before,
@@ -269,6 +254,10 @@ Cachons la case à cocher
 	transition: all .275s;
 }
 
+.card-text{
+  color: black;
+}
+
 /* Aspect de la coche */
 [type="checkbox"]:not(:checked) + label:after,
 [type="checkbox"]:checked + label:after {
@@ -284,13 +273,13 @@ Cachons la case à cocher
 
 /* Aspect non cochée */
 [type="checkbox"]:not(:checked) + label:after {
-	opacity: 0;
+	/* opacity: 0; */
 	transform: scale(0) rotate(45deg);
 }
 
 /* Aspect cochée */
 [type="checkbox"]:checked + label:after {
-	opacity: 1;
+	/* opacity: 1; */
 	transform: scale(1) rotate(0);
 }
 /* Disabled checkbox */
